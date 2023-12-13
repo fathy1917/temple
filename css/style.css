@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+    background-color: black;
+}
+table{
+    background-color: yellow;
+    color: green;
+}
+
+fieldset {
+    background-color: gray;
+}
+
+.link {
+    color: red;
+}
