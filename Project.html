@@ -19,7 +19,8 @@
                 <div class="container">
                     <div class="logo">
                     <img src="images/logo-alt.webp" alt="Logo Image" draggable="false" />
-                    </div>
+                    <img src="moon.png" id="moon">
+                </div>
                     <ul class="nav">
                         <li> <a href="#" class="active">Home</a></li>
                         <li> <a href="#aboutusfun">About</a></li>
@@ -536,5 +537,13 @@
                 <button class="button-form hover-opacity">Send message</button>
             </div> <!-- ./container -->
         </div> <!-- ./contact -->
+
+        
+        <script>
+            var icon = document.getElementById("moon");
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme");
+            }
+        </script>
     </body>
 </html> 
